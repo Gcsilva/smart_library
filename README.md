@@ -17,7 +17,7 @@
 <h2>Installation</h2>
 <p>
     <ul>
-        <li>Clone this project: <code>git clone http://git</code></li>
+        <li>Clone this project: <code>git clone https://github.com/Gcsilva/smart_library.git</code></li>
         <li>Install the dependencies: <code>composer update</code></li>
         <li>
             Setup database <code>config/db.php</code>:
