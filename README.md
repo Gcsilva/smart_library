@@ -162,9 +162,9 @@
 
 <br />
 
-<h2>
-    Summary
-</h2>
+<h1>
+    Further Information
+</h1>
 
 <p>This project can do further than exposed in this documentation, feel free to explore all the files and codes.</p>
 <p>I really thank you for appreciating my work.</p>
