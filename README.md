@@ -55,7 +55,9 @@
 <p>The BAM module can manage the books and linkage them to the writers.</p>
 <ul>
     <li>
-    View <pre><code>GET /smart_library/bam/{id}<br />GET /smart_library/bam?expand=bookAuthors.author<br />GET /smart_library/bam/{id}?expand=bookAuthors.author</code></pre>
+    View <pre><code>GET /smart_library/bam/{id}
+GET /smart_library/bam?expand=bookAuthors.author
+GET /smart_library/bam/{id}?expand=bookAuthors.author</code></pre>
     <pre><code>curl localhost/smart_library/bam/2?expand=bookAuthors.author</code></pre>
     Result
     <pre><code>{
@@ -115,7 +117,9 @@
 <p>The ADM module can manage the authors and linkage them to the books.</p>
 <ul>
     <li>
-    View <pre><code>GET /smart_library/adm/{id}<br />GET /smart_library/adm?expand=bookAuthors.book<br />GET /smart_library/adm/{id}?expand=bookAuthors.book</code></pre>
+    View <pre><code>GET /smart_library/adm/{id}
+GET /smart_library/adm?expand=bookAuthors.book
+GET /smart_library/adm/{id}?expand=bookAuthors.book</code></pre>
     <pre><code>curl localhost/smart_library/adm/3?expand=bookAuthors.book</code></pre>
     Result
     <pre><code>{
